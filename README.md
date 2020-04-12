@@ -7,7 +7,7 @@ My Personal Scoop Bucket. It contains manifests for [Scoop](https://scoop.sh), t
 scoop bucket add sriram https://github.com/sriramjiyer/MyScoopBucket.git
 ```
 
-## What software is available in this bucket
+## What Apps is available in this bucket
 
 App|Description
 ---|---
