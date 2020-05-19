@@ -13,3 +13,5 @@ App|Description
 ---|---
 keepass-buttons|Adds several buttons to [keepass](https://keepass.info)
 keepass-plugin-KPEnhancedEntryView|Adds [KPEnhancedEntryView](https://sourceforge.net/projects/kpenhentryview/) to [keepass](https://keepass.info)
+toggle_teams_mute_ahk|Hotkey script to mute/unmute Microsoft Teams. Requirs Autohotkey
+toggle_teams_mute_exe|Hotkey executable to mute/unmute Microsoft Teams. Does not require Autohotkey, but likely to be quarantined by antivirus
