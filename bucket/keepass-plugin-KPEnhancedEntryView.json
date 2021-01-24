@@ -2,9 +2,9 @@
   "homepage": "https://sourceforge.net/projects/kpenhentryview/",
   "description": "Plugin to KeePass to provide an enhanced entry view.",
   "license": "GPL-3.0",
-  "version": "2.2",
-  "url": "https://sourceforge.net/projects/kpenhentryview/files/v2.2/KPEnhancedEntryView-v2.2.zip/download#/dl.7z",
-  "hash": "7A158B22A4B6A931B81C7D9058ECAA5654EBBCF94816D9A178283AC2C45397D6",
+  "version": "2.3.1",
+  "url": "https://sourceforge.net/projects/kpenhentryview/files/v2.3.1/KPEnhancedEntryView-v2.3.1.zip/download#/dl.7z",
+  "hash": "8BF10DE489DDB6FE8EB62BDF1B4938A641199347283FA4958EA6A608109EA033",
   "depends": "extras/keepass",
   "installer": {
     "script": "Copy-Item \"$dir\\KPEnhancedEntryView.plgx\" \"$(appdir keepass $global)\\current\\Plugins\""
