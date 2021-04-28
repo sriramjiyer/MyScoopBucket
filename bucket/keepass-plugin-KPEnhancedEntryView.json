@@ -3,7 +3,7 @@
   "description": "Plugin to KeePass to provide an enhanced entry view.",
   "license": "GPL-3.0",
   "version": "2.4.1",
-  "hash": "3f6538e9389b7808b9b26adc909fab72a57bd8c970cae62c49d529bc7a7ecfb4"
+  "hash": "3f6538e9389b7808b9b26adc909fab72a57bd8c970cae62c49d529bc7a7ecfb4",
   "url": "https://sourceforge.net/projects/kpenhentryview/files/v2.4.1/KPEnhancedEntryView-v2.4.1.zip/download#/dl.7z",
   "depends": "extras/keepass",
   "installer": {
