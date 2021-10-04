@@ -12,6 +12,7 @@ scoop bucket add sriram https://github.com/sriramjiyer/MyScoopBucket.git
 App|Description
 ---|---
 DbGate|database administration tool
+LiteDB Explorer|Graphical editor for [LiteDB](https://github.com/mbdavid/LiteDB) databases
 keepass-buttons|Adds several buttons to [keepass](https://keepass.info)
 keepass-plugin-KPEnhancedEntryView|Adds [KPEnhancedEntryView](https://sourceforge.net/projects/kpenhentryview/) to [keepass](https://keepass.info)
 toggle_teams_mute_ahk|Hotkey script to mute/unmute Microsoft Teams. Requirs Autohotkey
