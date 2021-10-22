@@ -2,9 +2,9 @@
   "homepage": "https://github.com/sriramjiyer/MyScoopBucket",
   "description": "Script to add utility buttons to Keepass through scoop.",
   "license": "GPL-3.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "url": "https://raw.githubusercontent.com/sriramjiyer/myutils/master/scripts/powershell/Update-KeepassButtons.ps1",
-  "hash": "C1872FE401DB765382D7B0AA09E51E5DC45B0D664AF49B3F8BBBD5E4DB3E2EB5",
+  "hash": "6968169F6EC24DF81A42F2EC380BB5718D478F9ECBDE40CFA1F5EF62CBF8BC24",
   "depends": "extras/keepass",
   "installer": {
     "file": "Update-KeepassButtons.ps1",
