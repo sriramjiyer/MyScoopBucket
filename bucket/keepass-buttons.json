@@ -4,7 +4,7 @@
   "license": "GPL-3.0",
   "version": "1.0.1",
   "url": "https://raw.githubusercontent.com/sriramjiyer/myutils/master/scripts/powershell/Update-KeepassButtons.ps1",
-  "hash": "6968169F6EC24DF81A42F2EC380BB5718D478F9ECBDE40CFA1F5EF62CBF8BC24",
+  "hash": "A6167509B2A7E1CC993D952A94D9D7B8E977625778139F173368DE57A587CB4F",
   "depends": "extras/keepass",
   "installer": {
     "file": "Update-KeepassButtons.ps1",
