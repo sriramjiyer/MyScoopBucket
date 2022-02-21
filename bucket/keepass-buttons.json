@@ -1,17 +1,31 @@
 {
-  "homepage": "https://github.com/sriramjiyer/MyScoopBucket",
-  "description": "Script to add utility buttons to Keepass through scoop.",
-  "license": "GPL-3.0",
-  "version": "1.0.5",
-  "url": "https://raw.githubusercontent.com/sriramjiyer/myutils/master/scripts/powershell/Update-KeepassButtons.ps1",
-  "hash": "58d8916935e4aad22e2a1e2c2bbdb1e75a890b6f6337441e0b41ca6bc0cc34b4",
-  "depends": "extras/keepass",
-  "installer": {
-    "file": "Update-KeepassButtons.ps1",
-    "args": [ "$(appdir keepass $global)\\current", "add"]
-  },
-  "uninstaller": {
-    "file": "Update-KeepassButtons.ps1",
-    "args": [ "$(appdir keepass $global)\\current", "remove"]
-  }
+    "homepage": "https://github.com/sriramjiyer/MyScoopBucket",
+    "description": "Script to add utility buttons to Keepass through scoop.",
+    "license": "GPL-3.0",
+    "version": "1.0.7",
+    "url": "https://raw.githubusercontent.com/sriramjiyer/myutils/master/scripts/powershell/Update-KeepassButtons.ps1",
+    "hash": "77c63e72b1f811946ad36038891c24ff44ad9bdfe7e1af6b6d0fd889ef7de191",
+    "depends": "extras/keepass",
+    "installer": {
+        "file": "Update-KeepassButtons.ps1",
+        "args": [
+            "$(appdir keepass $global)\\current",
+            "add"
+        ],
+        "keep": "true"
+    },
+    "uninstaller": {
+        "file": "Update-KeepassButtons.ps1",
+        "args": [
+            "$(appdir keepass $global)\\current",
+            "remove"
+        ]
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/sriramjiyer/myutils/master/scripts/powershell/Update-KeepassButtons.ps1",
+        "regex": "Version\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/sriramjiyer/myutils/master/scripts/powershell/Update-KeepassButtons.ps1"
+    }
 }
