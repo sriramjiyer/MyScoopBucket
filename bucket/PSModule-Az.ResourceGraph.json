@@ -1,0 +1,18 @@
+{
+    "version": "0.12.0",
+    "homepage": "https://www.powershellgallery.com/packages/Az.ResourceGraph",
+    "hash": "e7cf0d5e3702d8250b3f3985dc0d764b7e9fa6e1dec4d86ddd51ee2735563537",
+    "url": "https://raw.githubusercontent.com/sriramjiyer/MyScoopBucket/master/dummy.txt",
+    "checkver": {
+        "re": "([\\d.]+)\\s*\\(current version"
+    },
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/sriramjiyer/MyScoopBucket/master/dummy.txt"
+    },
+    "installer": {
+        "script": "ensure $modulesdir;ensure_in_psmodulepath -dir $modulesdir -global $global;Save-Module -Name Az.ResourceGraph -Path $modulesdir -RequiredVersion $version"
+    },
+    "uninstaller": {
+        "script": "Remove-Item -Recurse -Force -Path \"$modulesdir/Az.ResourceGraph/$version\";if ( -Not ( Get-ChildItem -Path \"$modulesdir/Az.ResourceGraph\" ) ) { Remove-Item -Path \"$modulesdir/Az.ResourceGraph\" }"
+    }
+}
