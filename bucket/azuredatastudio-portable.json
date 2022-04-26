@@ -1,5 +1,5 @@
 {
-    "version": "1.35.0",
+    "version": "1.36.1",
     "description": "Data management tool that enables work with SQL Server, Azure SQL DB and SQL DW. (Portable Edition)",
     "homepage": "https://github.com/microsoft/azuredatastudio",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://azuredatastudio-update.azurewebsites.net/1.35.0/win32-x64-archive/stable#/dl.7z",
-            "hash": "577971ddaeff833bc45e0cd62a200fb60c0b53c86252f9376f1b594294b33fca"
+            "url": "https://azuredatastudio-update.azurewebsites.net/1.36.1/win32-x64-archive/stable#/dl.7z",
+            "hash": "b4f011149168fb1339304c5a00a1f30a87f9976b825efc93ff7c8675f68663e5"
         }
     },
     "bin": [
