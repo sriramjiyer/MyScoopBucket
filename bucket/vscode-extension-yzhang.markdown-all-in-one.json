@@ -1,8 +1,8 @@
 {
-    "version": "3.4.0",
+    "version": "3.4.3",
     "homepage": "https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one",
-    "hash": "eeb4a8331d714ec0d4934f4efa098fdb90bafdd6137b693499da1edc47356518",
-    "url": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/yzhang/vsextensions/markdown-all-in-one/3.4.0/vspackage#/ext.vsix.7z",
+    "hash": "2e9f67f9c3074b5c9f023ca241c883a594bd86d38042978742cf24ad08824911",
+    "url": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/yzhang/vsextensions/markdown-all-in-one/3.4.3/vspackage#/ext.vsix.7z",
     "checkver": {
         "re": "(?s)Version.:.([\\d.]+)"
     },
