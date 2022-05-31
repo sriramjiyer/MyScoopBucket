@@ -1,9 +1,9 @@
 {
-    "version": "4.7.1",
-    "url": "https://github.com/dbgate/dbgate/releases/download/v4.7.1/dbgate-4.7.1-win_x64.zip",
+    "version": "5.0.1",
+    "url": "https://github.com/dbgate/dbgate/releases/download/v5.0.1/dbgate-5.0.1-win_x64.zip",
     "license": "MIT License",
     "homepage": "https://dbgate.org",
-    "hash": "40b44a2a7fe2b29003471bb2fae2a463e9058ab845025af8c3c12fd14ef94c21",
+    "hash": "baed1fadf0c21b241453dcce04a5af356740fa79c6b1ee5b4829323db96ce0e9",
     "checkver": {
         "github": "https://github.com/dbgate/dbgate"
     },
